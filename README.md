@@ -59,15 +59,59 @@ This plugin can be used for:
 
 ## Plugin Structure
 
-```text
-bd-subscription-system/
-├── assets/
-├── docs/
-├── includes/
-├── .gitignore
-├── CHANGELOG.md
-├── LICENSE
-├── README.md
-├── bd-simple-subscription.php
-├── readme.txt
-└── uninstall.php
+    bd-subscription-system/
+    ├── assets/
+    ├── docs/
+    ├── includes/
+    ├── .gitignore
+    ├── CHANGELOG.md
+    ├── LICENSE
+    ├── README.md
+    ├── bd-simple-subscription.php
+    ├── readme.txt
+    └── uninstall.php
+
+## Current Status
+
+This project is under active development and ongoing improvement.
+
+The current version focuses on building a practical subscription and content-locking system for WordPress using WooCommerce as the payment and order foundation.
+
+## Planned Improvements
+
+- Better locker UI and content preview experience
+- Improved admin controls and settings flow
+- More flexible subscription plan handling
+- Better shortcode and page setup experience
+- Improved user dashboard experience
+- Cleaner onboarding for site owners
+
+## Installation
+
+See the full installation guide here:
+
+- [Installation Guide](docs/installation.md)
+
+## Documentation
+
+Project documentation:
+
+- [Installation Guide](docs/installation.md)
+- [Shortcodes](docs/shortcodes.md)
+- [Roadmap](docs/roadmap.md)
+
+## Screenshots
+
+Screenshots can be added later for:
+- plugin settings
+- protected content locker UI
+- user subscription dashboard
+- WooCommerce product configuration
+
+## Author
+
+**Muahtasim Fuad**
+
+## License
+
+This project is licensed under the GPLv2 or later license.
