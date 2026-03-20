@@ -1,39 +1,55 @@
 # BD Subscription System
 
-A WooCommerce-based subscription and content protection system for WordPress.
+A WooCommerce-based subscription and content protection plugin for WordPress with fixed-duration access control, subscriber management, and protected content workflows.
 
 ## Overview
-BD Subscription System is built to help WordPress site owners create fixed-duration subscription access using WooCommerce-supported payment methods.
 
-It focuses on practical access control, user subscription handling, and content protection for publishers, membership websites, and digital platforms.
+BD Subscription System is designed to help WordPress site owners manage subscription-based access using WooCommerce-supported payment methods.
 
-## Main features
+It is built for practical business use cases where site owners need:
+- fixed-duration subscription access
+- protected or member-only content
+- simple subscriber management
+- shortcode-based frontend integration
+- compatibility with standard WooCommerce payment workflows
+
+This project is especially useful for publishers, premium content platforms, membership websites, and subscription-based digital businesses.
+
+## Key Features
+
 - Fixed-duration subscription access
-- WooCommerce-based payment compatibility
-- Content locking and protected access
-- Subscriber management tools
-- Expiry handling
-- User subscription status display
-- Shortcode-based integration
-- Business-friendly workflow for local and international payment systems
+- WooCommerce-powered purchase flow
+- Content protection and post locking
+- Subscriber access management
+- Expiry and renewal handling
+- Shortcode-based subscription status display
+- User dashboard functionality
+- Admin settings and access control tools
+- Support for practical local and international payment workflows through WooCommerce
 
-## Why this project matters
-Many site owners want subscription-based access, but payment and content-locking systems are often difficult to adapt for local business needs.
+## Why This Project Matters
 
-This project is designed to make subscription management simpler by combining:
-- familiar WooCommerce payment flows
-- controlled content access
-- easy WordPress integration
-- practical business use cases
+Many WordPress site owners want to sell access to premium content, but existing solutions can be complex, expensive, or poorly suited to practical business workflows.
 
-## Use cases
-- News or article membership websites
-- Premium blog access
-- Paid research or reports
-- Member-only resource libraries
-- Subscription-based content businesses
+BD Subscription System aims to simplify that process by combining:
+- familiar WooCommerce checkout and payment systems
+- controlled access to protected content
+- business-friendly subscription handling
+- easier WordPress integration for real-world use cases
 
-## Tech stack
+## Use Cases
+
+This plugin can be used for:
+
+- News and media membership websites
+- Premium article and blog access
+- Paid reports or research content
+- Subscriber-only resource libraries
+- Private educational or documentation content
+- Content-based subscription businesses
+
+## Tech Stack
+
 - WordPress
 - WooCommerce
 - PHP
@@ -41,26 +57,17 @@ This project is designed to make subscription management simpler by combining:
 - CSS
 - JavaScript
 
-## Current status
-This project is under active development and improvement.
+## Plugin Structure
 
-## Planned improvements
-- Better locker UI
-- Improved admin controls
-- More flexible plan handling
-- Better shortcode and page setup experience
-- Enhanced user dashboard experience
-
-## Installation
-Detailed setup instructions will be added in `/docs/installation.md`.
-
-## Documentation
-- [Installation Guide](docs/installation.md)
-- [Shortcodes](docs/shortcodes.md)
-- [Roadmap](docs/roadmap.md)
-
-## Author
-**Muahtasim Fuad**
-
-## License
-GPLv2 or later
+```text
+bd-subscription-system/
+├── assets/
+├── docs/
+├── includes/
+├── .gitignore
+├── CHANGELOG.md
+├── LICENSE
+├── README.md
+├── bd-simple-subscription.php
+├── readme.txt
+└── uninstall.php
