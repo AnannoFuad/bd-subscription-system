@@ -102,11 +102,25 @@ Project documentation:
 
 ## Screenshots
 
-Screenshots can be added later for:
-- plugin settings
-- protected content locker UI
-- user subscription dashboard
-- WooCommerce product configuration
+## Screenshots
+
+### Settings Page
+![Settings Page](assets/screenshots/settings-page.png)
+
+### Product Setting
+![Product Setting](assets/screenshots/product-setting.png)
+
+### Locker UI
+![Locker UI](assets/screenshots/locker-ui.png)
+
+### Subscribers List
+![Subscribers List](assets/screenshots/subscribers-list.png)
+
+### Active Subscriber Status
+![Active Subscriber Status](assets/screenshots/active-subscribers-status.png)
+
+### Non-Active Subscriber Status
+![Non-Active Subscriber Status](assets/screenshots/nonactive-subscribers-status.png)
 
 ## Author
 
